@@ -23,11 +23,11 @@ namespace MVC_FormWizard.Controllers
         }
 
 
-        //[HttpPost]
-        //public ActionResult StepOne()
-        //{
-        //    return View();
-        //}
+        [HttpPost]
+        public ActionResult StepOne(string Email, string Name)
+        {
+            return View();
+        }
 
         [HttpGet]
         public ActionResult StepTwo()
