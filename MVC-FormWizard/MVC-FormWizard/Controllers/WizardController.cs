@@ -35,24 +35,10 @@ namespace MVC_FormWizard.Controllers
             return View();
         }
 
-
-        //[HttpPost]
-        //public ActionResult StepTwo()
-        //{
-        //    return View();
-        //}
-
         [HttpGet]
         public ActionResult StepThree()
         {
             return View();
         }
-
-
-        //[HttpPost]
-        //public ActionResult StepThree()
-        //{
-        //    return View();
-        //}
     }
 }
