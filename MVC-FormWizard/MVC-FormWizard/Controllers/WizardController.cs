@@ -8,9 +8,6 @@ namespace MVC_FormWizard.Controllers
 {
     public class WizardController : Controller
     {
-        //
-        // GET: /Wizard/
-
         public ActionResult Index()
         {
             return View();
@@ -21,7 +18,6 @@ namespace MVC_FormWizard.Controllers
         {
             return View();
         }
-
 
         [HttpPost]
         public ActionResult StepOne(string Email, string Name)
